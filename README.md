@@ -7,7 +7,7 @@ for sqlalchemy to accept `msgspec.Struct` types. Now when it comes to speed we c
 some bottleknecks that are normally witnessed when sqlalchemy is used such as with pure-python level stuff. While 
 merging them might be impossible msgspec has a different rulesets that we should follow off of and sqlalchemy 
 doesn't exactly fall in line which what msgspec needs. However many things from sqlalchmey can be implemented 
-hence the use of an Appache-2.0 License with this project. I will document all the code I managed to implement 
+hence the future use of an Appache-2.0 License with this project. I will document all the code I managed to implement 
 from it's code into C. 
 
 C has an advantage over pure python to some extent such as having faster reach to objects and being a lot more linent than 
